@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYC Family Itinerary | May 22-26</title>
+    <meta name="description" content="A compact first-time NYC family itinerary from Jersey City for Memorial Day weekend.">
+    <link rel="stylesheet" href="nyc.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="title-lockup">
+        <span class="monogram">NY</span>
+        <div>
+          <p class="eyebrow">May 22-26, 2026</p>
+          <h1>New York City Family Itinerary</h1>
+          <p class="subhead">First-time NYC highlights from Jersey City, with Central Park, birthday night, Memorial Day at Intrepid, and a Penn Station departure.</p>
+        </div>
+      </div>
+      <button class="print-button" type="button" data-print>Save PDF</button>
+    </header>
+
+    <main class="app-shell">
+      <section class="strategy-card" aria-label="Trip strategy">
+        <div>
+          <p class="eyebrow">Trip strategy</p>
+          <h2>Cluster the city, protect the nights.</h2>
+          <p>Use Jersey City as the base, avoid midday returns, keep Times Square for night, and make May 23 the birthday centerpiece.</p>
+        </div>
+        <div class="strategy-grid">
+          <article>
+            <span>Base</span>
+            <strong>211 Hancock Avenue, Jersey City</strong>
+            <p>Use NJ Transit/PATH/subway as the default. Use rideshare for late returns or luggage.</p>
+          </article>
+          <article>
+            <span>Big tickets</span>
+            <strong>Top of the Rock + Italian birthday dinner</strong>
+            <p>Book Top of the Rock for May 23 if weather/logistics work; otherwise use May 24 as the backup.</p>
+          </article>
+        </div>
+      </section>
+
+      <nav class="day-tabs" id="dayTabs" role="tablist" aria-label="Itinerary days"></nav>
+      <section id="dayDetail" class="day-detail" aria-live="polite"></section>
+    </main>
+
+    <script src="nyc.js"></script>
+  </body>
+</html>
